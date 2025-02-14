@@ -1,0 +1,27 @@
+{
+    "gpg": {
+        "gpg_binary_path": "C:\\Program Files (x86)\\gnupg\\bin\\gpg.exe"
+    },
+    "sftp": {
+        "host": "dataexportsftp.cdk.com",
+        "port": 22,
+        "username": "DYW_E105461",
+        "password": "Xthx<Wr,TeQYhPzl",
+        "directory": "/C186048/Appointments"
+    },
+    "local": {
+        "directory": "F:\\CDK\\Appointments",
+        "archive": "F:\\CDK\\Appointments\\archive",
+        "private_key": "F:\\CDK\\0x26364887-sec.asc"
+    },
+    "ssis": {
+        "package_path": "F:\\CDK\\Appointments\\source\\cdk_appointments_pgp.dtsx"
+    },
+    "email": {
+        "sender": "max@dodgemiami.com",
+        "password": "cssqtcknamfovpjq",
+        "receiver": "max@dodgemiami.com",
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587
+    }
+}
